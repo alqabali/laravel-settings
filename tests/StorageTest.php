@@ -1,10 +1,10 @@
 <?php
 
-namespace QCod\Settings\Tests\Feature;
+namespace Alqabali\Settings\Tests\Feature;
 
-use QCod\Settings\Tests\TestCase;
-use QCod\Settings\Setting\Setting;
-use QCod\Settings\Setting\SettingEloquentStorage;
+use Alqabali\Settings\Tests\TestCase;
+use Alqabali\Settings\Setting\Setting;
+use Alqabali\Settings\Setting\SettingEloquentStorage;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 
 class StorageTest extends TestCase
