@@ -25,7 +25,7 @@ abstract class TestCase extends OrchestraTestCase
      */
     protected function getPackageProviders($app)
     {
-        return ['QCod\Settings\SettingsServiceProvider'];
+        return ['Alqabali\Settings\SettingsServiceProvider'];
     }
 
     /**
@@ -35,7 +35,7 @@ abstract class TestCase extends OrchestraTestCase
     protected function getPackageAliases($app)
     {
         return [
-            'Settings' => 'QCod\Settings\Facade'
+            'Settings' => 'Alqabali\Settings\Facade'
         ];
     }
 
