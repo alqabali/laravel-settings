@@ -1,6 +1,6 @@
 <?php
 
-namespace QCod\Settings;
+namespace Alqabali\Settings;
 
 use Illuminate\Support\ServiceProvider;
 
