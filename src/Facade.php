@@ -1,6 +1,6 @@
 <?php
 
-namespace QCod\Settings;
+namespace Alqabali\Settings;
 
 class Facade extends \Illuminate\Support\Facades\Facade
 {
