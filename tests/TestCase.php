@@ -1,6 +1,6 @@
 <?php
 
-namespace QCod\Settings\Tests;
+namespace Alqabali\Settings\Tests;
 
 use Orchestra\Testbench\TestCase as OrchestraTestCase;
 
