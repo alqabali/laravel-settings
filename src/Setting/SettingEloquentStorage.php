@@ -1,6 +1,6 @@
 <?php
 
-namespace QCod\Settings\Setting;
+namespace Alqabali\Settings\Setting;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Facades\Cache;
