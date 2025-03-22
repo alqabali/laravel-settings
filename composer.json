@@ -31,7 +31,7 @@
       "src/migrations"
     ],
     "psr-4": {
-      "QCod\\Settings\\": "src/"
+      "Alqabali\\Settings\\": "src/"
     },
     "files": [
       "src/helpers.php"
@@ -39,16 +39,16 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "QCod\\Settings\\Tests\\": "tests/"
+      "Alqabali\\Settings\\Tests\\": "tests/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "QCod\\Settings\\SettingsServiceProvider"
+        "Alqabali\\Settings\\SettingsServiceProvider"
       ],
       "aliases": {
-        "Settings": "QCod\\Settings\\Facade"
+        "Settings": "Alqabali\\Settings\\Facade"
       }
     }
   },
