@@ -106,7 +106,7 @@ class SettingEloquentStorage implements SettingStorage
      */
     protected function getSettingsCacheKey()
     {
-        return $this->settingsCacheKey.'.'.$this->settingsGroupName;
+        return $this->settingsCacheKey . '.' . $this->settingsGroupName;
     }
 
     /**
