@@ -116,7 +116,7 @@ class SettingEloquentStorage implements SettingStorage
      */
     protected function getSettingModel()
     {
-        return app('\QCod\Settings\Setting\Setting');
+        return app('\Alqabali\Settings\Setting\Setting');
     }
 
     /**
